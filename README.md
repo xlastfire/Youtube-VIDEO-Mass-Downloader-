@@ -28,19 +28,13 @@ A command-line tool to download high-quality YouTube videos from single videos, 
    git clone https://github.com/your-username/youtube-video-downloader.git
    cd youtube-video-downloader
    ```
+   
+2. Make sure you have `ffmpeg` installed and accessible in your system's PATH.
 
-2. Install the required Python packages:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Make sure you have `ffmpeg` installed and accessible in your system's PATH.
-
-4. Download and install `yt-dlp` and `colorama`:
+3. Download and install `yt-dlp` and `colorama`:
 
    ```bash
-   pip install yt-dlp colorama
+   pip install yt-dlp colorama tqdm pyfiglet
    ```
 
 ### Usage
@@ -78,4 +72,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Thanks to [yt-dlp](https://github.com/yt-dlp/yt-dlp) for the video downloading functionality.
 - Thanks to [ffmpeg](https://ffmpeg.org/) for video and audio merging.
 - Thanks to [pyfiglet](https://github.com/pwaller/pyfiglet) for the banner text.
-```
